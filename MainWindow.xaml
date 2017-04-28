@@ -1,0 +1,90 @@
+﻿<Window x:Class="Microsoft.Samples.Kinect.FaceBasics.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Face Basics" 
+        Height="768" Width="1024" 
+        Loaded="MainWindow_Loaded"
+        Closing="MainWindow_Closing"> 
+  <Window.Resources>
+    <SolidColorBrush x:Key="MediumGreyBrush" Color="#ff6e6e6e" />
+    <SolidColorBrush x:Key="KinectPurpleBrush" Color="#ff52318f" />
+    <SolidColorBrush x:Key="KinectBlueBrush" Color="#ff00BCF2" />
+  </Window.Resources>
+
+    <Grid Margin="10 0 10 0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Grid Background="LightGray" Grid.Row="0">
+            <TextBlock Margin="0 5 -1 5" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="{StaticResource MediumGreyBrush}" FontWeight="Bold" FontFamily="Segoe UI" FontSize="30" >Facial Expression Recognition</TextBlock>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Margin="0 10 0 0">
+                <StackPanel>
+                    <TextBlock FontSize="15" FontWeight="Bold">Facial Details</TextBlock>
+                    
+                    <Viewbox Grid.Row="0" HorizontalAlignment="Center">
+                        <Image Source="{Binding ImageSource}" Stretch="UniformToFill" />
+                    </Viewbox>
+
+                    <TextBlock FontSize="15" Margin="0 20 0 0" FontWeight="Bold">Facial Contour Points</TextBlock>
+                    
+                    <Viewbox Grid.Row="1">
+                        <Canvas Background="LightGray" Name="canvas" Width="{Binding ActualWidth}" Height="600" />
+                    </Viewbox>
+                </StackPanel>
+            </Grid>
+
+            <Grid Grid.Column="1" Margin="0 10 0 0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.ColumnSpan="2" FontSize="15" Margin="10 0 0 10" FontWeight="Bold">Real-time Data</TextBlock>
+
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0">
+                        <StackPanel Orientation="Vertical">
+                            <!--Only left eye-->
+                            <TextBlock Margin="10 0 0 0">Left Eye Size: <TextBlock Name="LeftEyeSizeTextBlock" Text="{Binding LeftEyeSize, Mode=TwoWay}" Margin="10 0 0 0"/></TextBlock>
+
+                            <TextBlock Margin="10 5 0 0">Average Eye Size: <TextBlock Name="AverageEyeSizeTextBlock" Text= "{Binding AverageEyeSize, Mode=TwoWay}"></TextBlock></TextBlock>
+
+                            <!--Distance between Left Inner Eyebrow and Right Inner Eyebrow-->
+                            <TextBlock Margin="10 5 0 0">Distance Between Eyebrow: <TextBlock Name="DistanceBetweenEyebrowTextBlock" Text= "{Binding EyeBrowInBetweenDistance, Mode=TwoWay}" Margin="10 0 0 0"></TextBlock></TextBlock>
+
+                            <!--Only left eye-->
+                            <TextBlock Margin="10 5 0 0">Distance Between Eye and Eyebrow: <TextBlock Name="DistanceBetweenEyeAndEyebrowTextBlock" Text= "{Binding EyeBrowAndEyeDistance, Mode=TwoWay}" Margin="10 0 0 0"></TextBlock></TextBlock>
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Grid.Column="1">
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock Margin="10 0 0 0">Right Eye Size:</TextBlock>
+
+                            <TextBlock Margin="10 5 0 0">Eye Size Difference: <TextBlock Name="EyeSizeDifferenceTextBlock" Text="{Binding EyeSizeDifference, Mode=TwoWay}" Margin="10 0 0 0"/></TextBlock>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+
+        <StatusBar Grid.Row="2" HorizontalAlignment="Stretch" Name="statusBar" VerticalAlignment="Bottom" Background="White" Foreground="{StaticResource MediumGreyBrush}">
+        <StatusBarItem Content="{Binding StatusText}" />
+    </StatusBar>
+  </Grid>
+</Window>

@@ -1,0 +1,45 @@
+D:\Research\Sample Programs\FaceBasics-WPF\bin\x64\Debug\FaceBasics-WPF.exe.config
+D:\Research\Sample Programs\FaceBasics-WPF\bin\x64\Debug\FaceBasics-WPF.exe
+D:\Research\Sample Programs\FaceBasics-WPF\bin\x64\Debug\FaceBasics-WPF.pdb
+D:\Research\Sample Programs\FaceBasics-WPF\bin\x64\Debug\Microsoft.Kinect.Face.dll
+D:\Research\Sample Programs\FaceBasics-WPF\bin\x64\Debug\Microsoft.Kinect.Face.xml
+D:\Research\Sample Programs\FaceBasics-WPF\obj\x64\Debug\FaceBasics-WPF.csprojResolveAssemblyReference.cache
+D:\Research\Sample Programs\FaceBasics-WPF\obj\x64\Debug\MainWindow.baml
+D:\Research\Sample Programs\FaceBasics-WPF\obj\x64\Debug\MainWindow.g.cs
+D:\Research\Sample Programs\FaceBasics-WPF\obj\x64\Debug\App.g.cs
+D:\Research\Sample Programs\FaceBasics-WPF\obj\x64\Debug\FaceBasics-WPF_MarkupCompile.cache
+D:\Research\Sample Programs\FaceBasics-WPF\obj\x64\Debug\FaceBasics-WPF.g.resources
+D:\Research\Sample Programs\FaceBasics-WPF\obj\x64\Debug\Microsoft.Samples.Kinect.FaceBasics.Properties.Resources.resources
+D:\Research\Sample Programs\FaceBasics-WPF\obj\x64\Debug\FaceBasics-WPF.csproj.GenerateResource.Cache
+D:\Research\Sample Programs\FaceBasics-WPF\obj\x64\Debug\FaceBasics-WPF.exe
+D:\Research\Sample Programs\FaceBasics-WPF\obj\x64\Debug\FaceBasics-WPF.pdb
+D:\Research\Sample Programs\From SDK Browser\FaceBasics-WPF\obj\x64\Debug\FaceBasics-WPF.csprojResolveAssemblyReference.cache
+D:\Research\Sample Programs\From SDK Browser\FaceBasics-WPF\obj\x64\Debug\MainWindow.baml
+D:\Research\Sample Programs\From SDK Browser\FaceBasics-WPF\obj\x64\Debug\MainWindow.g.cs
+D:\Research\Sample Programs\From SDK Browser\FaceBasics-WPF\obj\x64\Debug\App.g.cs
+D:\Research\Sample Programs\From SDK Browser\FaceBasics-WPF\obj\x64\Debug\FaceBasics-WPF_MarkupCompile.cache
+D:\Research\Sample Programs\From SDK Browser\FaceBasics-WPF\obj\x64\Debug\FaceBasics-WPF.g.resources
+D:\Research\Sample Programs\From SDK Browser\FaceBasics-WPF\obj\x64\Debug\Microsoft.Samples.Kinect.FaceBasics.Properties.Resources.resources
+D:\Research\Sample Programs\From SDK Browser\FaceBasics-WPF\obj\x64\Debug\FaceBasics-WPF.csproj.GenerateResource.Cache
+D:\Research\Sample Programs\From SDK Browser\FaceBasics-WPF\obj\x64\Debug\FaceBasics-WPF.exe
+D:\Research\Sample Programs\From SDK Browser\FaceBasics-WPF\bin\x64\Debug\FaceBasics-WPF.exe.config
+D:\Research\Sample Programs\From SDK Browser\FaceBasics-WPF\bin\x64\Debug\FaceBasics-WPF.exe
+D:\Research\Sample Programs\From SDK Browser\FaceBasics-WPF\bin\x64\Debug\FaceBasics-WPF.pdb
+D:\Research\Sample Programs\From SDK Browser\FaceBasics-WPF\bin\x64\Debug\Microsoft.Kinect.Face.dll
+D:\Research\Sample Programs\From SDK Browser\FaceBasics-WPF\bin\x64\Debug\Microsoft.Kinect.Face.xml
+D:\Research\Sample Programs\From SDK Browser\FaceBasics-WPF\obj\x64\Debug\FaceBasics-WPF.pdb
+C:\Users\vince\Desktop\FaceBasics-WPF\bin\x64\Debug\FaceBasics-WPF.exe.config
+C:\Users\vince\Desktop\FaceBasics-WPF\bin\x64\Debug\FaceBasics-WPF.exe
+C:\Users\vince\Desktop\FaceBasics-WPF\bin\x64\Debug\FaceBasics-WPF.pdb
+C:\Users\vince\Desktop\FaceBasics-WPF\bin\x64\Debug\Microsoft.Kinect.Face.dll
+C:\Users\vince\Desktop\FaceBasics-WPF\bin\x64\Debug\Microsoft.Kinect.Face.xml
+C:\Users\vince\Desktop\FaceBasics-WPF\obj\x64\Debug\FaceBasics-WPF.csprojResolveAssemblyReference.cache
+C:\Users\vince\Desktop\FaceBasics-WPF\obj\x64\Debug\MainWindow.baml
+C:\Users\vince\Desktop\FaceBasics-WPF\obj\x64\Debug\MainWindow.g.cs
+C:\Users\vince\Desktop\FaceBasics-WPF\obj\x64\Debug\App.g.cs
+C:\Users\vince\Desktop\FaceBasics-WPF\obj\x64\Debug\FaceBasics-WPF_MarkupCompile.cache
+C:\Users\vince\Desktop\FaceBasics-WPF\obj\x64\Debug\FaceBasics-WPF.g.resources
+C:\Users\vince\Desktop\FaceBasics-WPF\obj\x64\Debug\Microsoft.Samples.Kinect.FaceBasics.Properties.Resources.resources
+C:\Users\vince\Desktop\FaceBasics-WPF\obj\x64\Debug\FaceBasics-WPF.csproj.GenerateResource.Cache
+C:\Users\vince\Desktop\FaceBasics-WPF\obj\x64\Debug\FaceBasics-WPF.exe
+C:\Users\vince\Desktop\FaceBasics-WPF\obj\x64\Debug\FaceBasics-WPF.pdb
